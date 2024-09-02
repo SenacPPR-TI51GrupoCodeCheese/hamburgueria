@@ -1,0 +1,14 @@
+Usuário
+	Id
+	Login
+Produto
+	Id
+	Nome
+	Preço
+	Descrição
+Pedido
+	Id
+	Código do Produto
+	Quantidade
+	Valor Total
+	Pagamento
