@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lanchonete", "Lanchonete\Lanchonete.csproj", "{336B01B5-2608-4A89-AE0A-D6CBEC63335F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{336B01B5-2608-4A89-AE0A-D6CBEC63335F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{336B01B5-2608-4A89-AE0A-D6CBEC63335F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{336B01B5-2608-4A89-AE0A-D6CBEC63335F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{336B01B5-2608-4A89-AE0A-D6CBEC63335F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10A4E078-10C0-4053-9A0E-0439B6B070C8}
+	EndGlobalSection
+EndGlobal
