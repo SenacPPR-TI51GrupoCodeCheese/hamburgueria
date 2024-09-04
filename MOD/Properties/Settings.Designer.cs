@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Frms.Properties
+namespace MOD.Properties
 {
 
 

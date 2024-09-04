@@ -20,7 +20,8 @@ CREATE TABLE [dbo].[Produto]
 	[Id] INT NOT NULL PRIMARY KEY IDENTITY(1,1), 
     [Nome] VARCHAR(255) NOT NULL, 
 	[Preco] VARCHAR(319) NOT NULL, 
-    [Descricao] VARCHAR(11) NOT NULL, 
+    [Descricao] VARCHAR(11) NOT NULL,
+	[Ingrediente] VARCHAR(50) NOT NULL, 
 )
 
 CREATE TABLE [dbo].[Pedido]

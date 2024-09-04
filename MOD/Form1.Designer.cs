@@ -1,4 +1,4 @@
-﻿namespace Frms
+﻿namespace MOD
 {
     partial class Form1
     {
