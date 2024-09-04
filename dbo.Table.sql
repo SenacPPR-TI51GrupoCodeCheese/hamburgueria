@@ -22,3 +22,11 @@ CREATE TABLE [dbo].[Produto]
 	[Preco] VARCHAR(319) NOT NULL, 
     [Descricao] VARCHAR(11) NOT NULL, 
 )
+
+CREATE TABLE [dbo].[Pedido]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY(1,1), 
+    [Nome] VARCHAR(255) NOT NULL, 
+	[Preco] VARCHAR(319) NOT NULL, 
+    [Descricao] VARCHAR(11) NOT NULL, 
+)

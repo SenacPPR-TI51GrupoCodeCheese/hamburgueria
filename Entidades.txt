@@ -1,6 +1,8 @@
 Usuário
 	Id
 	Login
+Consumidor
+Funcionário
 Produto
 	Id
 	Nome
@@ -12,3 +14,4 @@ Pedido
 	Quantidade
 	Valor Total
 	Pagamento
+Sistema de Gerenciamento de Banco de Dados (SGBD)
