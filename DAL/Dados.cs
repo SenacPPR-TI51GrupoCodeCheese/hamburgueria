@@ -12,12 +12,7 @@ namespace DAL
         {
             get
             {
-                //return "server=PPR0684929w10-1;" +
-                //       "database=dbhamburgueria;" +
-                //       "user=sa;" +
-                //       "pwd=senac111";
-
-                return "server=(LocalDb)\\MSSQLLocalDB;" +
+                return "server=PPR0687565W10-1;" +
                        "database=dbhamburgueria;" +
                        "user=Aluno;" +
                        "pwd=Senac111";
