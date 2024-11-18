@@ -16,10 +16,6 @@ namespace BLL
         {
             return dal.Inserir(objDados);
         }
-        public void Alterar(PedidoMOD objDados)
-        {
-            dal.Alterar(objDados);
-        }
         public void Excluir(int codigo)
         {
             dal.Excluir(codigo);

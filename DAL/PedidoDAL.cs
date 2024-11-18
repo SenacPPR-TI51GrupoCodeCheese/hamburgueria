@@ -110,32 +110,5 @@ namespace DAL
                 throw new Exception("Erro do banco: " + ex.Message);
             }
         }
-
-        public void Alterar(PedidoMOD objDados)
-        {
-            //Objeto de conexao com o banco de dados
-            AcessoDados consulta = new AcessoDados();
-
-            try
-            {
-                consulta.LimparParametros();
-
-                string SQL = " UPDATE Pedido " +
-                                " SET Nome = @Nome, Preco = @Preco, Descricao = @Descricao, StatusPedido = @StatusPedido," +
-                                    " WHERE Id = @Id ";
-
-                //Passagem dos valores para os parametros
-                //consulta.AdicionarParametro("@Nome", SqlDbType.VarChar, objDados.Nome);
-                //consulta.AdicionarParametro("@Preco", SqlDbType.VarChar, objDados.Preco);
-                //consulta.AdicionarParametro("@Descricao", SqlDbType.VarChar, objDados.Descricao);
-                //consulta.AdicionarParametro("@StatusPedido", SqlDbType.VarChar, objDados.SituacaoPedido);      
-
-                consulta.ExecutaAtualizacao(SQL);
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("Erro banco de dados: " + ex.Message);
-            }
-        }
     }
 }
